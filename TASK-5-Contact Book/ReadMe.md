@@ -1,16 +1,18 @@
-# Task 4 - Rock Paper Scissors Game
+# Task 5 - Contact Book
 
-This project is a command-line Rock Paper Scissors game developed using Python as part of the CodSoft Internship (July 2025 Batch). It allows a user to play against the computer in multiple rounds with score tracking.
+This project is a console-based Contact Book application developed using Python as part of the CodSoft Internship (July 2025 Batch). It allows users to manage their contacts with basic operations like add, view, search, update, and delete. All contact data is stored persistently using JSON.
 
 ## Features
-- Supports best-of-3, best-of-5, and best-of-7 game modes
-- Accepts user input for moves (rock, paper, scissor)
-- Randomly generates computer moves
-- Tracks scores and determines match winner
-- Repeats round on draw
+- Add new contacts with name, phone number, email, and address
+- Search for contacts by name
+- Update contact details
+- Delete contacts
+- View all saved contacts
+- Stores data in a JSON file for persistence
+
 
 ## Technologies Used
 ```bash
 - Python
-- random module only
+- JSON module
 ```
