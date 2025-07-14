@@ -1,25 +1,35 @@
-# Task 1 - Simple Calculator
+# Task 1 - To-Do List Application (Tkinter GUI)
 
-This project is a simple command-line calculator developed as part of the CodSoft Internship (July 2025 Batch). It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+This project is a secure, user-based To-Do List application developed using Python and Tkinter as part of the CodSoft Internship (July 2025 Batch).
+
+It supports individual user accounts with login and registration, password hashing using bcrypt, and persistent task storage using JSON files.
 
 ## Features
-- Accepts two numbers and an operation from the user
-- Performs calculation and displays the result
-- Handles division by zero
-- Validates numeric input
+
+- User Registration with auto-generated User ID
+- Secure login with hashed passwords
+- Add, view, update, and delete tasks
+- Store tasks with status (e.g., "Incomplete", "Done", etc.)
+- Data persistence using `listusers.json`
+- Clean and simple GUI using Tkinter
 
 ## How to Run
-1. Open a terminal or command prompt.
-2. Run the script using:
-   python calculator.py
 
-## Sample Input
-Enter first number: 12  
-Enter second number: 4  
-Enter operation: /
+1. Make sure you have Python installed (version 3.x)
 
-## Sample Output
-Result: 3.0
+##Technologies Used
 
-## Technologies Used
-- Python (no external libraries)
+Python
+Tkinter (for GUI)
+bcrypt (for password security)
+JSON (for saving user accounts and tasks)
+
+##Notes
+Passwords must be 8+ characters with at least one special character.
+Make sure to remember your User ID after registration. It's required for login.
+Each user's tasks are saved and reloaded automatically.
+
+##Example
+Register → Name: Arjun, Password: pass@1234
+App gives you: User ID: 107
+On next run, you can login using ID 107 and your password
