@@ -1,4 +1,4 @@
-RE# Task 4 - Rock Paper Scissors Game
+# Task 4 - Rock Paper Scissors Game
 
 This project is a command-line Rock Paper Scissors game developed using Python as part of the CodSoft Internship (July 2025 Batch). It allows a user to play against the computer in multiple rounds with score tracking.
 
